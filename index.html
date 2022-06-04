@@ -37,33 +37,6 @@
 
 		<!-- Modernizer Script for old Browsers -->
         <script src="js/modernizr-2.6.2.min.js"></script>
-		<style>
-				.button {
-				border: none;
-				color: white;
-				padding: 20px 40px;
-				text-align: center;
-				text-decoration: none;
-				display: inline-block;
-				font-size: 30px;
-				margin: 4px 2px;
-				transition-duration: 0.4s;
-				cursor: pointer;
-				
-				}
-
-				.button1 {
-				background-color: white; 
-				color: black; 
-				border: 2px solid #0eb493;
-				}
-
-				.button1:hover {
-				background-color: #0eb493;
-				color: white;
-				}
-
-		</style>
 
     </head>
 	
@@ -81,13 +54,7 @@
         <header id="navigation" class="navbar-fixed-top navbar">
             <div class="container">
                 <div class="navbar-header">
-                    <!-- responsive nav button -->
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <i class="fa fa-bars fa-2x"></i>
-                    </button>
-					<!-- /responsive nav button -->
-					
+
 					<!-- logo -->
                     <a class="navbar-brand" href="#body">
 						<h1 id="logo">
@@ -105,7 +72,10 @@
                         <!-- <li><a href="#works">Getting Started</a></li> -->
                         <li><a href="#team">Team</a></li>
                         <li><a href="#contact">Contact</a></li>
-                    </ul>
+					</ul>
+					<button class="btn" onclick="myFunction()">
+						<img src="img/moon.svg" aria-hidden="true">
+					</button>
                 </nav>
 				<!-- /main nav -->
 				
@@ -463,6 +433,13 @@
 			);
 			wow.init();
 		</script> 
+
+		<script>
+			function myFunction() {
+			var element = document.body;
+			element.classList.toggle("dark-mode");
+			}
+		</script>
 		<!-- Custom Functions -->
         <script src="js/custom.js"></script>
 		

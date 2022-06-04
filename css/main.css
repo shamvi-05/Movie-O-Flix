@@ -7,7 +7,7 @@ body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
     line-height: 21px;
-	font-size: 13px;
+	  font-size: 13px;
     color: #6a737b;
 }
 
@@ -271,10 +271,6 @@ top: -8px;
 /*=========================================
 	Features
 ==========================================*/
-
-.features {
-  background-color: #f4f7f9;
-}
 
 .owl-controls {
   bottom: -45px;
@@ -775,3 +771,22 @@ font-style: normal;
 .text-center {
   text-align: center;
 }
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+button {
+  background-color: #ffffff;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+
