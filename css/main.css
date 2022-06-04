@@ -549,178 +549,225 @@ top: -8px;
   text-transform: uppercase;
 }
 
-
 /*=========================================
 	Contact Us
 ==========================================*/
-
-.contact {
-	padding-bottom: 0;
+h1 {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 50px;
+  color: #0eb493;
+  text-align: center;
 }
 
-.contact-address h3 {
-  color: #062033;
-  font-size: 22px;
-  line-height: 32px;
-  margin-bottom: 25px;
+h4 {
+  font-family: 'Roboto', sans-serif, 'arial';
+  font-weight: 400;
+  font-size: 20px;
+  color: #030303;
+  line-height: 1.5;
 }
 
-.contact-address p {
-  line-height: 24px;
+/* ///// inputs /////*/
+
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+  font-size: 0.75em;
+  color: rgb(10, 10, 10);
+  top: -5px;
+  -webkit-transition: all 0.225s ease;
+  transition: all 0.225s ease;
 }
 
-.contact-form {}
-
-.contact-form h3 {
-  color: #062033;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 32px;
-  margin-bottom: 25px;
-}
-
-.contact-form .input-group {
-  width: 100%;
-}
-
-.contact-form .form-control {
-  border-color: -moz-use-text-color -moz-use-text-color #cccccc;
-  border-radius: 0;
-  border-style: none none solid;
-  border-width: 0 0 1px;
-  box-shadow: none;
-  margin-bottom: 10px;
-}
-
-.contact-form .input-field {
-  width: 48%;
+.styled-input {
   float: left;
-  margin-right: 4%;
+  width: 293px;
+  margin: 1rem 0;
+  position: relative;
+  border-radius: 4px;
 }
 
-.contact-form .input-field:last-child {
-  margin-right: 0;
+@media only screen and (max-width: 768px){
+  .styled-input {
+      width:100%;
+  }
 }
 
-.contact-form .form-control.error {
-border-bottom-color: #c0392b;
+.styled-input label {
+  color: rgb(0, 0, 0);
+  padding: 1.3rem 30px 1rem 30px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
 }
 
-label.error {
-  color: #c0392b;
-  font-weight: normal;
-  text-transform: capitalize;
+.styled-input.wide { 
+  width: 650px;
+  max-width: 100%;
 }
 
-.contact-form #form-submit {
-  background: url("../img/envelop.png") no-repeat scroll 0 15px transparent;
-  border: 0 none;
-  color: #000;
-  font-size: 16px;
-  line-height: 24px;
-  padding: 10px;
-  text-align: right;
-  width: 150px;
-}
-
-.footer-social {
-  margin-top: 17px;
-}
-
-.footer-social li a {
-  color: #cdd2d6;
-  display: block;
-  margin-bottom: 10px;
-}
-
-#map_canvas {
-  height: 215px;
+input,
+textarea {
+  padding: 30px;
+  border: 0;
   width: 100%;
+  font-size: 1rem;
+  background-color: #5bc0ad;
+  color: white;
+  border-radius: 4px;
 }
 
+input:focus,
+textarea:focus { outline: 0; }
 
+input:focus ~ span,
+textarea:focus ~ span {
+  width: 100%;
+  -webkit-transition: all 0.075s ease;
+  transition: all 0.075s ease;
+}
+
+textarea {
+  width: 100%;
+  min-height: 15em;
+}
+
+.input-container {
+  width: 650px;
+  max-width: 100%;
+  margin: 20px auto 25px auto;
+}
+
+.submit-btn {
+  float: right;
+  padding: 7px 35px;
+  border-radius: 60px;
+  display: inline-block;
+  background-color: #4b8cfb;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
+            0 2px 10px 0 rgba(0,0,0,0.07);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.submit-btn:hover {
+  transform: translateY(1px);
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
+            0 1px 1px 0 rgba(0,0,0,0.09);
+}
+
+@media (max-width: 768px) {
+  .submit-btn {
+      width:100%;
+      float: none;
+      text-align:center;
+  }
+}
+
+input[type=checkbox] + label {
+color: #ccc;
+font-style: italic;
+} 
+
+input[type=checkbox]:checked + label {
+color: #f00;
+font-style: normal;
+}
 
 /*=========================================
-	Contact Us
+	Footer
 ==========================================*/
-
-
-.footer {
-  background-color: #1ea78d;
-  border-top: 5px solid #062033;
-  color: #fff;
+.footer-dark {
+  padding:50px 0;
+  color:#ffffff;
+  background-color:#0eb493 ;
 }
 
-.footer a:hover {
-  color: #062033;
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
 }
 
-.footer h6 {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 24px;
-  margin-bottom: 30px;
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
 }
 
-.about-us p {
-  line-height: 24px;
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.9;
 }
 
-.footer-single .subscribe {
-  margin-bottom: 15px;
-  position: relative;
+.footer-dark ul a:hover {
+  opacity:0.9;
 }
 
-.subscribe #subscribe {
-  background-color: transparent;
-  border: 2px solid #fff;
-  border-radius: 2px;
-  height: 40px;
-  text-indent: 10px;
-  width: 100%;
-}
-
-.subscribe #subs {
-  background-color: transparent;
-  border: 0 none;
-  font-size: 24px;
-  position: absolute;
-  right: 0;
-  top: 6px;
-}
-
-.footer-single {
-  line-height: 24px;
-}
-
-.footer-single ul {
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
   }
-
-.footer-single li {
-  line-height: 32px;
 }
 
-.footer-single p i {
-  margin: 0 10px;
+.footer-dark .item.text {
+  margin-bottom:36px;
 }
 
-.credit a {
-  color: #062033;
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
 }
 
-.credit a:hover {
-  color: #fff;
+.footer-dark .item.text p {
+  opacity:0.9;
+  margin-bottom:0;
 }
 
-.copyright {
-  color: #fff;
-  margin-top: 100px;
+.footer-dark .item.social {
+  text-align:center;
 }
 
-#back-top {
-  bottom: 20px;
-  position: fixed;
-  right: 25px;
-  z-index: 9;
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
 }
 
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.9;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.9;
+  font-size:13px;
+  margin-bottom:0;
+}
