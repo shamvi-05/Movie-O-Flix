@@ -31,13 +31,17 @@ form.addEventListener('submit', async (e)=>{
     
     var l=bestMatch.language;
     // const premeired = bestMatch.image.medium
-    var name = bestMatch.name 
+   
+    var name = bestMatch.name;
+    
+     
     // console.log(name)
     var gen=bestMatch.genres;
     // console.log(gen);
     var rating = "Ratings: "+bestMatch.rating.average+" ⭐️" 
     var summary = bestMatch.summary
     var more=bestMatch.url
+    
     // console.log(more);
  
     // CREATE DOM ELEMENTS HERE
@@ -74,6 +78,7 @@ form.addEventListener('submit', async (e)=>{
     p1.style.fontFamily= 'Sans Serif';
     p1.style.fontSize= '20px';
     p1.style.small;
+    p1.style.fontStyle='italic'
     p1.style.color='white';
     p1.style.fontWeight= '40'
     lang.style.fontWeight= '40'
