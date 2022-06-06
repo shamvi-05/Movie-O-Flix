@@ -31,7 +31,7 @@ In explore you can search for your required series. -->
     <a href="https://github.com/shamvi-05/Movie-O-Flix"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://shamvi-05.github.io/Movie-o-Flix/">View Demo</a>
+    <a href="https://shamvi-05.github.io/Movie-O-Flix/index.html">View Demo</a>
     ·
     <a href="https://github.com/shamvi-05/Movie-O-Flix/issues">Report Bug</a>
     ·
