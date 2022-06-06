@@ -73,25 +73,25 @@ form.addEventListener('submit', async (e)=>{
 
     // STYLE CREATED ELEMENTS HERE
     h1.style.fontSize = '30px';
-    h1.style.color='white';
+    h1.style.color='black';
     h1.style.strong;
     p1.style.fontFamily= 'Sans Serif';
     p1.style.fontSize= '20px';
     p1.style.small;
     p1.style.fontStyle='italic'
-    p1.style.color='white';
+    p1.style.color='black';
     p1.style.fontWeight= '40'
     lang.style.fontWeight= '40'
-    lang.style.color='white';
+    lang.style.color='black';
     lang.style.fontSize = '20px';
     m.style.wordSpacing = "10px";
-    p2.style.color='white';
+    p2.style.color='black';
     p2.style.fontSize = '20px';
     m.style.fontWeight= '40'
-    m.style.color='white';
+    m.style.color='black';
     m.style.fontSize = '20px';
     u.style.fontWeight= '40'
-    u.style.color='white';
+    u.style.color='black';
     u.style.fontSize = '20px';
 
     
