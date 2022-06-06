@@ -217,7 +217,7 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 [stars-shield]: https://img.shields.io/github/stars/shamvi-05/Movie-O-Flix
 [stars-url]: https://github.com/shamvi-05/Movie-O-Flix/stargazers
 [issues-shield]: https://img.shields.io/github/issues/shamvi-05/Movie-O-Flix
-[issues-url]: https://github.com/shamvi-05/Movie-O-Flixissues
+[issues-url]: https://github.com/shamvi-05/Movie-O-Flix/issues
 [license-shield]: https://img.shields.io/github/license/shamvi-05/Movie-O-Flix
 [license-url]: https://github.com/shamvi-05/Movie-O-Flix/blob/master/LICENSE.md
 
