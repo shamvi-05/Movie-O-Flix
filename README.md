@@ -1,4 +1,4 @@
-## MLH-Orientation-Hackathon
+## Movie-o-Flix
 <!-- An API based Movie Website
 this website uses [TV Maze api](https://www.tvmaze.com/api) , to get data of TV series.
 In explore you can search for your required series. -->
@@ -31,7 +31,7 @@ In explore you can search for your required series. -->
     <a href="https://github.com/shamvi-05/Movie-O-Flix"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="shamvi-05.github.io/movie-o-flix/">View Demo</a>
+    <a href="https://shamvi-05.github.io/Movie-o-Flix/">View Demo</a>
     ·
     <a href="https://github.com/shamvi-05/Movie-O-Flix/issues">Report Bug</a>
     ·
@@ -101,10 +101,10 @@ Contributions are what make the open source community such an amazing place to l
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
-1. Fork and Clone the Project (`git clone https://github.com/shamvi-05/Movie-O-Flix.git`)
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+1. Fork and Clone the Project (`git clone https://github.com/your-username/Movie-O-Flix.git`)
+2. Create your Feature Branch (`git checkout -b branch-name`)
+3. Commit your Changes (`git commit -m 'commit-message'`)
+4. Push to the Branch (`git push origin branch-name`)
 5. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
