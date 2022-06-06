@@ -77,6 +77,8 @@ Feature:
 * The website has both Dark and Light Mode Features.
 * Website fulfills the Responsive nature.
 
+To know more about our team and project read [here](https://gitlab.com/ssurbhi560/Movie-O-Flix/-/wikis/Movie-o-Flix)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
